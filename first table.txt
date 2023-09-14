@@ -1,0 +1,8 @@
+CREATE TABLE student(
+    student_id INT PRIMARY KEY,
+    name VARCHAR(20),
+    major VARCHAR(20)
+);
+SELECT * FROM student;
+
+INSERT INTO student VALUES(3,'ANI','pysics');
